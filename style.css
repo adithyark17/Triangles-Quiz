@@ -1,0 +1,105 @@
+:root {
+    --headerButtonColor: #5b21b6;
+    --bodyBg: #111827;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: var(--headerButtonColor);
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-color: var(--bodyBg);
+    color: white;
+}
+
+a {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    border-bottom: 3px solid white;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+label {
+    font-size: 1.3rem;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 40%;
+    margin: auto;
+    font-size: 1rem;
+}
+
+button {
+    width: 40%;
+    margin: 1rem;
+    padding: 0.4rem;
+    background-color: var(--headerButtonColor);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#output {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.formula {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    border: 3px solid var(--headerButtonColor);
+    padding: 1rem;
+    width: 40%;
+}
+
+form {
+    text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.button-centre {
+    text-align: center;
+    margin: auto;
+}
+
+hr {
+    margin: 1rem;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+}
